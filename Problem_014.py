@@ -1,4 +1,7 @@
-#Longest Collatz sequence
+# Euler Problem 014
+# Solved 16 January 2021
+
+# Longest Collatz sequence
 seqlen = [] #list of lengths of sequences
 for n in range(1,1000000):
     seq = [] #sequence of numbers
@@ -12,5 +15,5 @@ for n in range(1,1000000):
             seq.append(n)
     seqlen.append(len(seq))
    
-print(max(seqlen))
+# print(max(seqlen))
 print(seqlen.index(max(seqlen)))
